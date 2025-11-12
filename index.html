@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>2026 수리논술 파이널</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Noto Sans KR', sans-serif;
+      scroll-behavior: smooth;
+      background-color: #f9f9f9;
+    }
+
+    /* 상단 고정 메뉴 */
+    header {
+      position: sticky;
+      top: 0;
+      background-color: #6705e8e7;
+      color: white;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 20px 0;
+      z-index: 1000;
+    }
+
+    header a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    header a:hover {
+      text-decoration: underline;
+    }
+
+    /* 이미지 섹션 */
+    section {
+      height: 100vh;
+      box-sizing: border-box;
+      margin-bottom: 100px; /* 이미지 사이 여백 */
+    }
+
+    #slide1 {
+      padding-top: 1px; /* 첫 이미지 상단 여백 줄임 */
+    }
+
+    .image-section img {
+      width: 100%;
+      height: 110%;
+      object-fit: contain;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🧭 상단 메뉴 -->
+  <header>
+    <a href="#slide1">소개</a>
+    <a href="#slide2">수업 특징</a>
+    <a href="#slide3">수업 진행</a>
+    <a href="#slide4">강사 소개</a>
+    <a href="#slide5">시간표</a>
+    <a href="#slide6">대학 일정</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeHZ36GxS8jWYsVt56S-l0htfOMZXwb2LW__N6QO-abDhlyPw/viewform?usp=dialog" target="_blank">신청</a>
+  </header>
+
+  <main>
+    <!-- 🖼 이미지 섹션들 -->
+    <section id="slide1" class="image-section">
+      <img src="intro.png" alt="소개 이미지">
+    </section>
+
+    <section id="slide2" class="image-section">
+      <img src="features.png" alt="수업 특징 이미지">
+    </section>
+
+    <section id="slide3" class="image-section">
+      <img src="progress.png" alt="수업 진행 이미지">
+    </section>
+
+    <section id="slide4" class="image-section">
+      <img src="teacher.png" alt="강사 소개 이미지">
+    </section>
+
+    <section id="slide5" class="image-section">
+      <img src="schedule.png" alt="시간표 이미지">
+    </section>
+
+    <section id="slide6" class="image-section">
+      <img src="universities.png" alt="기간별 대학 일정 이미지">
+    </section>
+  </main>
+
+</body>
+</html>
